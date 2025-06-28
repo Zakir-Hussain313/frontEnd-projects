@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="zarif.css">
+    <title>Zarif Nabizada</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <i class="logo"><a href=""><img src="z-logo.avif" alt=""></a></i>
+            <input type="checkbox" id="check">
+            <span class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <label for="check" class="close-menu"><i class="ri-close-large-line"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="ri-menu-line"></i></label>
+        </nav>
+        <!-- hero section -->
+
+        <section class="hero autoBlur" id="hero">
+            <div class="herotext">
+                <h1 id="hero-tittle-1">Dream</h1>
+                <div class="herotext2">
+                    <h1 id="hero-tittle-2" class="gradient">Designer</h1>
+                    <h4>Get to <span class="gradient">Design</span> your <span class="gradient">Dream</span> House</h4>
+                </div>
+                <div class="hero-footer ">
+                    <button >
+                        <a href="#contact">Hire Me</a>
+                    </button>
+                    <i class="ri-facebook-circle-fill"><a href=""></a></i>
+                    <i class="ri-instagram-fill"></i>
+                    <i class="ri-whatsapp-fill"></i>
+                </div>
+            </div>
+                <div class="hero-image">
+                    <img src="hero-image.jpg" alt="">
+                </div>
+        </section>
+
+        <!-- About section -->
+
+         <section class="about autoBlur" id="about">
+            <h1 class="autoDisplay"><span class="gradient">About</span> Me</h1>
+            <div class="about-sect">
+                <div class="about-image fadeInRight">
+                <img src="plug.webp" alt="">
+            </div>
+                <div class="about-text fadeInRight">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nostrum nobis distinctio ex omnis expedita sint pariatur vitae porro quo quis similique perspiciatis, quos qui at ullam possimus. Excepturi nam ipsa nobis laboriosam eos voluptatem, enim neque, eius qui corrupti dolores soluta! Tenetur architecto voluptates numquam unde cupiditate vel repellat deleniti beatae labore quo!</p>
+                <button>
+                    <a href="zarif-info.html">Learn More</a>
+                </button>
+            </div>
+            </div>
+         </section>
+
+         <!-- Expertise section  -->
+
+         <section class="expertise autoBlur" id="expertise">
+            <h1 class="autoDisplay" id="expertise-tittle">
+                My <span class="gradient">Expertise</span>
+            </h1>
+            <div class="expertise-boxes">
+                <div class="boxes fadeInRight">
+                    <h3 >Design Your House</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, velit! Lorem ipsum dolor sit amet.</p>
+                    <i class="ri-home-9-fill"></i>
+                </div>
+                <div class="boxes fadeInRight">
+                    <h3>Stone Creativity</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, velit! Lorem ipsum dolor sit amet.</p>
+                    <i class="ri-brain-2-fill"></i>
+                </div>
+                <div class="boxes fadeInRight">
+                    <h3>Professional Manager</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, velit! Lorem ipsum dolor sit amet.</p>
+                    <i class="ri-building-fill"></i>
+                </div>
+            </div>
+         </section>
+
+         <!-- contact section  -->
+
+         <section class="contact-section autoBlur" id="contact">
+            <h1 class="autoDisplay"><span class="gradient">Contact </span>  Me</h1>
+            <div class="contact fadeInRight">
+                <!-- <div class="contact-icons">
+                <i class="ri-facebook-circle-fill">  Zarif Nabizada</i>
+                <i class="ri-instagram-fill">  Zarif Nabizada</i>
+                <i class="ri-whatsapp-fill">  +93 78 506 0607 / 03222729102</i>
+            </div> -->
+                <form class="contact-form " onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" id="input" name="Name" class="input" placeholder="Enter your name" required>
+                    <input type="text" name="Phone" class="input" placeholder="Enter your phone number" required>
+                    <input type="email" name="Email" class="input" id="email" placeholder="Enter your email" required>
+                    <textarea name="" id="message" rows="4" placeholder="Enter your Message" required></textarea>
+                    <button id="sendBtn">Send</button>
+                </form>
+            </div>
+         </section>
+         <footer>
+            <h2>Thanks for Visiting!</h2>
+            <div class="footer-icons">
+                <i class="ri-facebook-circle-fill">  Zarif Nabizada</i>
+                <i class="ri-instagram-fill">  Zarif Nabizada</i>
+                <i class="ri-whatsapp-fill">  +93 78 506 0607 / 03222729102</i>
+            </div>
+         </footer>
+    </div>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="zarif.js"></script>
+    
+</body>
+</html>
